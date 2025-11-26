@@ -58,8 +58,8 @@
       <div class="container">
         <div class="row">
           <div class="section-head col-sm-12" id="service">
-            <h1 class="fade-in">Our Services</h1>
-            <p class="fade-in">
+            <h1>Our Services</h1>
+            <p>
               At ApexClick, we specialize in high-quality, results-driven digital marketing services
               that help businesses make more money, grow their audience, and dominate their online
               presence. From SEO and content marketing to paid ads, social media growth, and
@@ -116,10 +116,10 @@
       <div class="container">
         <div class="row">
           <div class="section-head-1 col-sm-12" style="text-align: center">
-            <h4 style="margin-top: -5rem" id="portfolio" class="fade-in">
+            <h4 style="margin-top: -5rem" id="portfolio">
               <span>Our Featured</span> Services
             </h4>
-            <p class="fade-in">
+            <p>
               Explore our comprehensive digital marketing solutions where we've
               combined cutting-edge technology with strategic expertise to drive
               business growth. Each service showcases our commitment to quality and
@@ -487,9 +487,38 @@ const faqs = ref<FAQ[]>([
   {
     id: '1',
     question: 'What digital marketing services do you offer?',
-    answer: 'We specialize in a comprehensive range of digital marketing services including website development, social media management, SEO optimization, content marketing, PPC advertising, and email marketing automation.'
+    answer: 'We specialize in website development, SEO, social media management, content marketing, PPC advertising, email marketing automation, and full-funnel digital strategy for businesses and personal brands.'
   },
-  // Add other FAQs here
+  {
+    id: '2',
+    question: 'How can ApexClick help my business make more money?',
+    answer: 'We focus on revenue-driven strategies: high-converting websites, SEO to bring in ready-to-buy traffic, paid ads to scale quickly, and optimized funnels that turn followers and visitors into paying customers.'
+  },
+  {
+    id: '3',
+    question: 'Can you help me grow my social media followers and online presence?',
+    answer: 'Yes. We create content strategies, manage your social media accounts, run paid campaigns, and optimize your profiles so you grow real, engaged followers and build a consistent brand across all platforms.'
+  },
+  {
+    id: '4',
+    question: 'Do you work with startups, small businesses, and personal brands?',
+    answer: 'Absolutely. We work with startups, local businesses, established companies, and personal brands, tailoring each strategy to your stage, budget, and growth goals.'
+  },
+  {
+    id: '5',
+    question: 'How long does it take to see results from SEO and digital marketing?',
+    answer: 'SEO results typically start to show within 3–6 months, while paid ads and social media campaigns can generate traffic and leads much faster. We provide transparent reporting so you can see progress over time.'
+  },
+  {
+    id: '6',
+    question: 'Can you create a complete online presence for my business from scratch?',
+    answer: 'Yes. We can handle everything from branding and logo design to website creation, SEO setup, social media launch, content creation, and ongoing digital marketing management.'
+  },
+  {
+    id: '7',
+    question: 'How do I get started with ApexClick?',
+    answer: 'You can contact us through the website form, social media, or the “Contact Now” button. We will schedule a consultation to understand your goals, then the ApexClick team will design a custom digital marketing plan for you.'
+  }
 ]);
 
 const achievements = ref<Achievement[]>([
@@ -568,6 +597,33 @@ onUnmounted(() => {
 </script>
 
 <style scoped>
+.services-section .section-head h1 {
+  color: #0f3460; /* dark, clear blue for visibility on light background */
+  font-weight: 700;
+  text-align: center;
+}
+
+.services-section .section-head p {
+  color: #333;
+  max-width: 900px;
+  margin: 0.5rem auto 2rem;
+}
+
+.featured-services-section .section-head-1 h4 {
+  color: #0f3460;
+  font-weight: 700;
+}
+
+.featured-services-section .section-head-1 span {
+  color: #00bfff;
+}
+
+.featured-services-section .section-head-1 p {
+  color: #333;
+  max-width: 900px;
+  margin: 0.5rem auto 2rem;
+}
+
 .newsletter-section {
   background: linear-gradient(135deg, #1a237e 0%, #283593 100%);
   padding: 5rem 1rem;
