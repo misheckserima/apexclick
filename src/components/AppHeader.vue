@@ -79,10 +79,11 @@ onUnmounted(() => {
 
 <style scoped>
 .logo-img {
-  width: 220px;
-  height: 75px;
+  width: 80px;
+  height: 3rem;
   border-radius: 2px;
   object-fit: contain;
+  transition: all 0.3s ease;
 }
 
 /* Mobile Menu Button - Hamburger */
@@ -190,8 +191,10 @@ onUnmounted(() => {
   }
   
   .logo-img {
-    width: 200px;
-    height: 70px;
+    width: 80px;
+    height: 3rem;
+    object-fit: contain;
+    margin: 10px 0;
   }
   
   .navbar {
@@ -262,8 +265,8 @@ onUnmounted(() => {
   }
   
   .logo-img {
-    width: 180px;
-    height: 65px;
+    width: 80px;
+    height: 3rem;
   }
   
   .navbar {

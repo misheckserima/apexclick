@@ -2693,11 +2693,11 @@ body.nav-open {
   }
 
   .header .logo img {
-    width: 20%;
+    width: 80px;
     height: 3rem;
     top: 0;
     left: 0;
-    background-size: cover;
+    object-fit: contain;
   }
 
   .header .fa-bars {
