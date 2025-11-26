@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "ApexClick Digital Marketing Agency - Vue.js + TypeScript",
   "type": "module",
+  "engines": {
+    "node": ">=18 <24"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
