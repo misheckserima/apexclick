@@ -60,10 +60,11 @@
           <div class="section-head col-sm-12" id="service">
             <h1 class="fade-in">Our Services</h1>
             <p class="fade-in">
-              At ApexClick, we specialize in crafting high-quality,
-              innovative digital marketing solutions. Our expertise lies in designing and
-              implementing digital strategies that enhance both online presence
-              and business growth.
+              At ApexClick, we specialize in high-quality, results-driven digital marketing services
+              that help businesses make more money, grow their audience, and dominate their online
+              presence. From SEO and content marketing to paid ads, social media growth, and
+              conversion-focused websites, we build complete digital ecosystems designed to increase
+              traffic, followers, and revenue for your brand.
             </p>
           </div>
           <div 
@@ -215,7 +216,9 @@
     <section class="team" style="margin-top: 7rem">
       <h1 class="heading" style="margin-top: 3rem" id="team">Our Team</h1>
       <p class="team-description">
-        Meet the visionary leaders behind ApexClick, dedicated to transforming businesses through innovative digital marketing solutions and cutting-edge technology.
+        Meet the visionary leaders behind ApexClick, led by Founder &amp; CEO <strong>Misheck Serima</strong> – a
+        digital marketing strategist and developer focused on helping businesses grow revenue, followers, and
+        long-term online presence through data-driven marketing and technology.
       </p>
       <div class="row">
         <div 
